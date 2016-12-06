@@ -18,7 +18,7 @@ export class HomeComponent {
   public newName: string = '';
 
   constructor(private store: Store<IAppState>, public routerext: RouterExtensions) {
-    this.names$ = store.let(<any>getNames);
+    //this.names$ = store.let(<any>getNames);
   }
 
   /*
